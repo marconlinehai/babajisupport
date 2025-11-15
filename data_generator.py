@@ -9,66 +9,14 @@ class FixedDataGenerator:
     def setup_data(self):
         # Large and varied device list (A–Z coverage)
         self.devices = [
-            # Samsung
-            {"model": "SM-A146B", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-A235F", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-G998B", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-F936B", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-M536B", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-S901E", "manufacturer": "samsung", "brand": "samsung"},
-            {"model": "SM-A556E", "manufacturer": "samsung", "brand": "samsung"},
-            
-            # Realme
-            {"model": "RMX3081", "manufacturer": "realme", "brand": "realme"},
-            {"model": "RMX2156", "manufacturer": "realme", "brand": "realme"},
-            {"model": "RMX2185", "manufacturer": "realme", "brand": "realme"},
-            {"model": "RMX2061", "manufacturer": "realme", "brand": "realme"},
-            {"model": "RMX3381", "manufacturer": "realme", "brand": "realme"},
-            {"model": "RMX3821", "manufacturer": "realme", "brand": "realme"},
-            
-            # Xiaomi / Redmi
-            {"model": "M2010J19SI", "manufacturer": "xiaomi", "brand": "xiaomi"},
-            {"model": "M2007J20CI", "manufacturer": "xiaomi", "brand": "xiaomi"},
-            {"model": "22021211RI", "manufacturer": "xiaomi", "brand": "xiaomi"},
-            {"model": "21091116UI", "manufacturer": "xiaomi", "brand": "xiaomi"},
-            {"model": "Redmi Note 11", "manufacturer": "xiaomi", "brand": "redmi"},
-            {"model": "Redmi Note 12", "manufacturer": "xiaomi", "brand": "redmi"},
-            {"model": "Mi 11 Lite", "manufacturer": "xiaomi", "brand": "xiaomi"},
-            {"model": "Poco X5", "manufacturer": "xiaomi", "brand": "poco"},
-            
+
             # Oppo
             {"model": "CPH2385", "manufacturer": "oppo", "brand": "oppo"},
             {"model": "CPH2205", "manufacturer": "oppo", "brand": "oppo"},
             {"model": "CPH2211", "manufacturer": "oppo", "brand": "oppo"},
             {"model": "CPH2123", "manufacturer": "oppo", "brand": "oppo"},
             
-            # OnePlus
-            {"model": "2107113SG", "manufacturer": "oneplus", "brand": "oneplus"},
-            {"model": "220333QAG", "manufacturer": "oneplus", "brand": "oneplus"},
-            {"model": "21091116AG", "manufacturer": "oneplus", "brand": "oneplus"},
-            {"model": "2201123G", "manufacturer": "oneplus", "brand": "oneplus"},
-            {"model": "OnePlus 10R", "manufacturer": "oneplus", "brand": "oneplus"},
-            {"model": "OnePlus Nord CE3", "manufacturer": "oneplus", "brand": "oneplus"},
-            
-            # Motorola
-            {"model": "Moto G82", "manufacturer": "motorola", "brand": "motorola"},
-            {"model": "Moto G72", "manufacturer": "motorola", "brand": "motorola"},
-            {"model": "Moto Edge 40", "manufacturer": "motorola", "brand": "motorola"},
-            {"model": "XT2175-2", "manufacturer": "motorola", "brand": "motorola"},
-            
-            # Vivo
-            {"model": "Vivo 2006", "manufacturer": "vivo", "brand": "vivo"},
-            {"model": "Vivo 2025", "manufacturer": "vivo", "brand": "vivo"},
-            {"model": "Vivo 1919", "manufacturer": "vivo", "brand": "vivo"},
-            {"model": "Vivo 2104", "manufacturer": "vivo", "brand": "vivo"},
-            {"model": "Vivo Y36", "manufacturer": "vivo", "brand": "vivo"},
-            
-            # Nothing / Pixel / iQOO / Asus (added variety)
-            {"model": "A059", "manufacturer": "Nothing", "brand": "Nothing"},
-            {"model": "Pixel 7a", "manufacturer": "Google", "brand": "Pixel"},
-            {"model": "iQOO Z9", "manufacturer": "iQOO", "brand": "iQOO"},
-            {"model": "Asus ROG 8", "manufacturer": "asus", "brand": "asus"},
-        ]
+            ]
 
     def generate_hash_part(self, length):
         """Generate random hexadecimal part"""
